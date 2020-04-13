@@ -37,19 +37,19 @@ h3 {
 }*/
 
 .pro {
-  text-decoration: underline;
+  font-weight: bold;
 }
 
 .bottom-cloud {
   width:150px;
   position: absolute;
-  left: 300px;
+  left: 25%;
   bottom: 300px;
 }
 
 .top-cloud {
   width:150px;
   position: absolute;
-  right: 300px;
+  right: 25%;
   top: 50px;
 }
