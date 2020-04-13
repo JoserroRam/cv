@@ -1,20 +1,55 @@
 body {
-  background-color: #f4f4f4;
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
-hr {
-  border-style: dotted none none;
-  /*border-top-style: dotted;*/
-  border-color: #8ec6c5;
-  width: 8%;
-  border-width: 6px 0 0;
+h1 {
+  margin-top: 0px;
+  font-family: 'Merienda', cursive;
 }
 
-h1{
-  color: #6983aa;
+h2 {
+  font-family: 'Comfortaa', cursive;
 }
 
-h3{
+h3 {
+  font-family: 'Comfortaa', cursive;
+}
 
-    color: #6983aa;
+.top-container {
+  padding-top: 100px;
+  height: 100%;
+  background-color: #e3fdfd; /*https://colorhunt.co/palette/42191*/
+  position: relative;
+}
+/*
+.middle-container {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.bottom-container {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}*/
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  width:150px;
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  width:150px;
+  position: absolute;
+  right: 300px;
+  top: 50px;
 }
