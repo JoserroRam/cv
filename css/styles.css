@@ -1,11 +1,55 @@
 body {
   margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
-  margin-top:0;
+  margin-top: 0px;
+  font-family: 'Merienda', cursive;
 }
 
-div{
-  background-color: #e3d9ca;
+h2 {
+  font-family: 'Comfortaa', cursive;
+}
+
+h3 {
+  font-family: 'Comfortaa', cursive;
+}
+
+.top-container {
+  padding-top: 100px;
+  height: 100%;
+  background-color: #e3fdfd; /*https://colorhunt.co/palette/42191*/
+  position: relative;
+}
+/*
+.middle-container {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.bottom-container {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}*/
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  width:150px;
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  width:150px;
+  position: absolute;
+  right: 300px;
+  top: 50px;
 }
