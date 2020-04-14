@@ -107,16 +107,20 @@ p{
 
 .bottom-cloud {
   width:150px;
-  position: absolute;
-  left: 25%;
-  bottom: 300px;
+  position: relative;
+  right: 350px;
 }
 
 .top-cloud {
   width:150px;
-  position: absolute;
-  right: 25%;
+  position: relative;
+  left: 350px;
   top: 50px;
+}
+
+.mountain{
+  display: block;
+  margin: auto  ;
 }
 
 .contact-me{
