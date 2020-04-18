@@ -1,141 +1,115 @@
-body {
-  margin: 0;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
+body{
+  font-family: 'Montserrat';
 }
 
-h1 {
-  margin: 50px auto 0;
-  font-family: 'Merienda', cursive;
-  font-size: 5.625rem;
-  color: #588da8;
+#title{
+  background-color: #ff4c68;
+  color: #fff;
 }
 
-h2 {
-  font-family: 'Comfortaa', cursive;
+.container-fluid{
+  padding: 3% 15%;
+}
+
+h1{
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu';
   font-size: 2.5rem;
-  color: #588da8;
-}
-
-h3 {
-  font-family: 'Comfortaa', cursive;
-  color: #11999E;
-}
-
-a{
-}
-
-.footer-link{
-  margin:30px;
-  font-family: 'Comfortaa', cursive;
-  color: #11999E;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-p{
-  color: #40514E;
-}
-
-#programmer{
-  font-weight: normal;
-}
-
-.profile-photo{
-  height: 150px;
-}
-
-.robot-photo{
-  height:150px;
-  float: left;
-  margin-right: 30px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-}
-
-.code-photo{
-  height:150px;
-  float: right;
-  margin-left: 30px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-}
-
-.top-container {
-  padding-top: 100px;
-  height: 100%;
-  background-color: #e3fdfd; /*https://colorhunt.co/palette/42191*/
-  position: relative;
-}
-
-.profile{
-  width: 30%;
-  margin: 75px auto;
-}
-
-.skills {
-  margin-top: 75px;
-}
-
-.middle-container{
-  margin-bottom: 50px;
-}
-
-.bottom-container {
-  background-color: #71c9ce;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.copyright{
-  color: #EAF6F6;
-  font-family: 'Comfortaa', cursive;
-  font-weight: bold;
-  margin-top: 30px;
-}
-
-.pro {
   font-weight: bold;
 }
 
-.skill-row{
-  width: 50%;
-  margin: 100px auto;
-  text-align: justify;
-  line-height: 2;
+.nav-item{
+  padding: 0 25px;
 }
 
-.bottom-cloud {
-  width:150px;
-  position: relative;
-  right: 350px;
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: 300;
 }
 
-.top-cloud {
-  width:150px;
-  position: relative;
-  left: 350px;
-  top: 50px;
+/* Download Buttons */
+.download-button{
+  margin: 5% 3% 15% 0;
 }
 
-.mountain{
-  display: block;
-  margin: auto  ;
+/* Doggy Image/Title image */
+.title-image{
+  width: 60%;
+  transform: rotate(20deg); /*Rotates an element */
+  margin: 0 auto;
 }
 
-.contact-me{
-  margin-top: 75px;
+#features{
+  padding:7% 15%;
 }
 
-hr{
-  border-style: dotted;
-  height: 0;
-  border-width: 0 0 8px 0;
-  width: 70px;
-  color: #a6b1e1;
+.feature-box{
+  text-align: center;
+  padding: 5%;
 }
 
-.btn{
-  margin-top: 20px;
-  width: 150px;
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+h3{
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.feature-paragraph{
+  color: #8f8f8f;
+}
+
+/* Testimonial Section */
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin:20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
 }
